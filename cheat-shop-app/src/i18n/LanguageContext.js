@@ -23,7 +23,7 @@ export const LanguageProvider = ({ children, initialLocale = 'en' }) => {
     // Сначала проверяем куки
     const cookieLocale = document.cookie
       .split('; ')
-      .find(row => row.startsWith('locale='))
+      .find(row => row.startsWith('locale=') || row.startsWith('selectedLang='))
       ?.split('=')[1];
     
     if (cookieLocale && ['ru', 'en'].includes(cookieLocale)) {
@@ -72,18 +72,22 @@ export const LanguageProvider = ({ children, initialLocale = 'en' }) => {
     // После монтирования проверяем, нужно ли обновить язык
     if (typeof window !== 'undefined') {
       const pathname = window.location.pathname;
-      
-      let urlLocale = 'ru'; // По умолчанию русский
-      if (pathname.startsWith('/ru')) {
-        urlLocale = 'ru';
-      } else if (pathname.startsWith('/en')) {
-        urlLocale = 'en';
-      }
-      
-      // Устанавливаем язык согласно URL только если он отличается
-      if (urlLocale !== language) {
-        setLanguage(urlLocale);
-        localStorage.setItem('selectedLang', urlLocale);
+
+      // Если у пользователя уже есть сохранённый язык — не перезаписываем
+      const hasSavedLang =
+        document.cookie.includes('selectedLang=') ||
+        document.cookie.includes('locale=') ||
+        localStorage.getItem('selectedLang');
+
+      if (!hasSavedLang) {
+        let urlLocale = 'ru';
+        if (pathname.startsWith('/ru')) urlLocale = 'ru';
+        else if (pathname.startsWith('/en')) urlLocale = 'en';
+
+        if (urlLocale !== language) {
+          setLanguage(urlLocale);
+          localStorage.setItem('selectedLang', urlLocale);
+        }
       }
       
       // Автоматическое определение локали по IP при первом посещении
@@ -291,25 +295,28 @@ export const LanguageProvider = ({ children, initialLocale = 'en' }) => {
         setLanguage(newLanguage);
         
         if (typeof window !== 'undefined') {
-          // Также сохраняем в localStorage для обратной совместимости
           localStorage.setItem('selectedLang', newLanguage);
+          document.cookie = `selectedLang=${newLanguage}; max-age=${365 * 24 * 60 * 60}; path=/; samesite=lax`;
+          document.cookie = `locale=${newLanguage}; max-age=${365 * 24 * 60 * 60}; path=/; samesite=lax`;
         }
         
         console.log('[LANG] Language changed successfully');
       } else {
         console.error('[LANG] Failed to save language preference');
-        // Все равно меняем язык локально
         setLanguage(newLanguage);
         if (typeof window !== 'undefined') {
           localStorage.setItem('selectedLang', newLanguage);
+          document.cookie = `selectedLang=${newLanguage}; max-age=${365 * 24 * 60 * 60}; path=/; samesite=lax`;
+          document.cookie = `locale=${newLanguage}; max-age=${365 * 24 * 60 * 60}; path=/; samesite=lax`;
         }
       }
     } catch (error) {
       console.error('[LANG] Error changing language:', error);
-      // В случае ошибки все равно меняем язык локально
       setLanguage(newLanguage);
       if (typeof window !== 'undefined') {
         localStorage.setItem('selectedLang', newLanguage);
+        document.cookie = `selectedLang=${newLanguage}; max-age=${365 * 24 * 60 * 60}; path=/; samesite=lax`;
+        document.cookie = `locale=${newLanguage}; max-age=${365 * 24 * 60 * 60}; path=/; samesite=lax`;
       }
     }
   };
