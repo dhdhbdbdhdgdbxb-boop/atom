@@ -51,7 +51,7 @@ export async function middleware(request) {
 
   // Обработка мультиязычности
   const locales = ['ru', 'en'];
-  const defaultLocale = 'ru'; // Изменили на русский по умолчанию
+  const defaultLocale = 'en'; // / — английский по умолчанию
   
   // Проверяем, есть ли локаль в URL
   const pathnameHasLocale = locales.some(
@@ -64,14 +64,13 @@ export async function middleware(request) {
       // Определяем локаль пользователя
       const userLocale = await determineLocale(request);
       
-      // Если определенная локаль не русская, перенаправляем на соответствующую версию
-      if (userLocale !== 'ru') {
-        const response = NextResponse.redirect(new URL(`/${userLocale}`, request.url));
+      // Если русский IP — редиректим на /ru
+      if (userLocale === 'ru') {
+        const response = NextResponse.redirect(new URL('/ru', request.url));
         
-        // Устанавливаем куки с определенной локалью, если их еще нет
         if (!request.cookies.get('locale')?.value) {
-          response.cookies.set('locale', userLocale, {
-            maxAge: 365 * 24 * 60 * 60, // 1 год
+          response.cookies.set('locale', 'ru', {
+            maxAge: 365 * 24 * 60 * 60,
             httpOnly: false,
             secure: process.env.NODE_ENV === 'production',
             sameSite: 'lax',
@@ -82,12 +81,11 @@ export async function middleware(request) {
         return response;
       }
       
-      // Для русской локали остаемся на корневом пути
+      // Для английской локали остаёмся на /
       const response = NextResponse.next();
       
-      // Устанавливаем куки с русской локалью, если их еще нет
       if (!request.cookies.get('locale')?.value) {
-        response.cookies.set('locale', 'ru', {
+        response.cookies.set('locale', 'en', {
           maxAge: 365 * 24 * 60 * 60,
           httpOnly: false,
           secure: process.env.NODE_ENV === 'production',
@@ -99,7 +97,6 @@ export async function middleware(request) {
       return response;
     } catch (error) {
       console.error('Locale determination error:', error);
-      // В случае ошибки остаемся на корневом пути (русская версия)
       return NextResponse.next();
     }
   }
