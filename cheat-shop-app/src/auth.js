@@ -118,7 +118,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         sameSite: 'lax',
         path: '/',
         secure: process.env.NODE_ENV === 'production',
-        domain: process.env.NODE_ENV === 'production' ? 'atomcheats.com' : undefined
+        domain: process.env.NODE_ENV === 'production' ? process.env.COOKIE_DOMAIN : undefined
       }
     },
     callbackUrl: {
@@ -130,7 +130,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
         sameSite: 'lax',
         path: '/',
         secure: process.env.NODE_ENV === 'production',
-        domain: process.env.NODE_ENV === 'production' ? 'atomcheats.com' : undefined
+        domain: process.env.NODE_ENV === 'production' ? process.env.COOKIE_DOMAIN : undefined
       }
     },
     csrfToken: {
