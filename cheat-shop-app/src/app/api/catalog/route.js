@@ -6,6 +6,7 @@
 import catalogService from '@/lib/services/catalogService';
 import { formatPrice } from '@/lib/utils/variantUtils';
 import prisma from '@/lib/prisma';
+import { getMediaUrl } from '@/lib/utils/imageUtils';
 
 // GET /api/catalog - Получение данных каталога для публичного отображения
 export async function GET(request) {
@@ -131,7 +132,7 @@ export async function GET(request) {
           productCount: category.productCount,
           priceFrom: category.formattedPrice,
           background: category.background || 'bg-gradient-to-br from-purple-500/20 to-pink-600/20',
-          backgroundImage: category.image,
+          backgroundImage: getMediaUrl(category.image),
           icon: category.icon,
           type: 'category',
           linkType: 'internal',
@@ -157,7 +158,7 @@ export async function GET(request) {
             name: translation?.name || product.name,
             productCount: 1,
             priceFrom: formatPrice(minPrice, currency, language),
-            backgroundImage: product.image,
+            backgroundImage: getMediaUrl(product.image),
             icon: product.icon,
             type: 'product',
             linkType: 'internal',
@@ -186,7 +187,7 @@ export async function GET(request) {
             name: translation?.name || product.name,
             productCount: 1,
             priceFrom: formatPrice(minPrice, currency, language),
-            backgroundImage: product.image,
+            backgroundImage: getMediaUrl(product.image),
             icon: product.icon,
             type: 'product',
             linkType: 'internal',
@@ -252,7 +253,7 @@ export async function GET(request) {
           name: product.name,
           productCount: 1,
           priceFrom: formatPrice(minPrice, currency, language),
-          backgroundImage: product.image,
+          backgroundImage: getMediaUrl(product.image),
           icon: product.icon,
           type: 'product',
           linkType: 'internal',

@@ -6,6 +6,7 @@ import prisma from '@/lib/prisma';
 import productVariantService from './productVariantService';
 import cache from '@/lib/utils/cacheUtils';
 import { formatPrice } from '@/lib/utils/variantUtils';
+import { getMediaUrl } from '@/lib/utils/imageUtils';
 
 class CatalogService {
   /**
@@ -57,7 +58,7 @@ class CatalogService {
           minPrice,
           formattedPrice: formatPrice(minPrice, currency, language),
           productCount: game._count.products,
-          backgroundImage: game.image || game.background || game.icon || null
+          backgroundImage: getMediaUrl(game.image || game.background || game.icon || null)
         };
       })
     );
@@ -345,7 +346,7 @@ class CatalogService {
        variantsCount: product.variants.length,
        name: translation?.name || product.name,
        description: translation?.description || product.description,
-       backgroundImage: product.image,
+       backgroundImage: getMediaUrl(product.image),
        media: media
      };
    });
@@ -443,7 +444,7 @@ class CatalogService {
         productCount: game._count.products,
         priceFrom: formatPrice(minPrice, currency, language),
         background: game.background || 'bg-gradient-to-br from-orange-500/20 to-red-600/20',
-        backgroundImage: game.backgroundImage,
+        backgroundImage: getMediaUrl(game.backgroundImage),
         icon: game.icon,
         linkType: 'internal',
         target: `/catalog?game=${game.slug}`,
@@ -470,7 +471,7 @@ class CatalogService {
         productCount: category._count.products,
         priceFrom: formatPrice(minPrice, currency, language),
         background: category.background || 'bg-gradient-to-br from-purple-500/20 to-pink-600/20',
-        backgroundImage: category.image,
+        backgroundImage: getMediaUrl(category.image),
         icon: category.icon,
         linkType: 'internal',
         target: `/catalog?game=${category.game.slug}&category=${category.slug}`,
@@ -494,7 +495,7 @@ class CatalogService {
         description: product.description,
         productCount: 1,
         priceFrom: formatPrice(minPrice, currency, language),
-        backgroundImage: product.image,
+        backgroundImage: getMediaUrl(product.image),
         icon: product.icon,
         linkType: 'internal',
         target: `/product/${product.slug}`,
