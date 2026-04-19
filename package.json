@@ -1,0 +1,13 @@
+{
+  "name": "cheat-shop",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently -n app,upload -c cyan,yellow \"npm run dev --prefix cheat-shop-app\" \"npm run dev --prefix upload-server\"",
+    "start": "concurrently -n app,upload -c cyan,yellow \"npm run start --prefix cheat-shop-app\" \"npm run start --prefix upload-server\"",
+    "install:all": "npm install --prefix cheat-shop-app && npm install --prefix upload-server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}
