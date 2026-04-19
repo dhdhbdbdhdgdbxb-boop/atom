@@ -7,7 +7,7 @@ CREATE TABLE `payment_fees` (
   `fixed_fee_rub` DECIMAL(10,2) NOT NULL DEFAULT 0.00,
   `is_active` BOOLEAN NOT NULL DEFAULT true,
   `created_at` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3),
-  `updated_at` DATETIME(3) NOT NULL,
+  `updated_at` DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3) ON UPDATE CURRENT_TIMESTAMP(3),
 
   PRIMARY KEY (`id`),
   UNIQUE INDEX `payment_fees_payment_method_key`(`payment_method`)
