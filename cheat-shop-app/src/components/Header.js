@@ -523,7 +523,7 @@ function Header() {
                   <Link
                     href="/deposit"
                     onClick={toggleMenu}
-                    className="flex items-center space-x-3 px-4 py-3 bg-blue-600 hover:bg-blue-700 rounded-lg text-white transition-colors cursor-pointer"
+                    className="flex items-center space-x-3 px-4 py-3 bg-slate-800/50 hover:bg-slate-700/50 rounded-lg text-white transition-colors cursor-pointer"
                   >
                     <Wallet className="w-4 h-4" />
                     <span>{t('header.userMenu.deposit', 'Пополнить баланс')}</span>
