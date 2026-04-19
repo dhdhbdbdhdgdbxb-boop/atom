@@ -280,45 +280,44 @@ export const LanguageProvider = ({ children, initialLocale = 'en' }) => {
     if (newLanguage === language) return;
     
     console.log('[LANG] Changing language to:', newLanguage);
-    
+
+    // Сохраняем куки сразу
+    if (typeof window !== 'undefined') {
+      localStorage.setItem('selectedLang', newLanguage);
+      document.cookie = `selectedLang=${newLanguage}; max-age=${365 * 24 * 60 * 60}; path=/; samesite=lax`;
+      document.cookie = `locale=${newLanguage}; max-age=${365 * 24 * 60 * 60}; path=/; samesite=lax`;
+    }
+
+    // Сохраняем через API
     try {
-      // Сохраняем в куки через API
-      const response = await fetch('/api/locale', {
+      await fetch('/api/locale', {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
+        headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ locale: newLanguage }),
       });
+    } catch {}
 
-      if (response.ok) {
-        setLanguage(newLanguage);
-        
-        if (typeof window !== 'undefined') {
-          localStorage.setItem('selectedLang', newLanguage);
-          document.cookie = `selectedLang=${newLanguage}; max-age=${365 * 24 * 60 * 60}; path=/; samesite=lax`;
-          document.cookie = `locale=${newLanguage}; max-age=${365 * 24 * 60 * 60}; path=/; samesite=lax`;
-        }
-        
-        console.log('[LANG] Language changed successfully');
+    // Редиректим на URL с правильным префиксом языка
+    if (typeof window !== 'undefined') {
+      const pathname = window.location.pathname;
+      let newPath;
+
+      // Убираем текущий языковой префикс
+      const stripped = pathname.replace(/^\/(ru|en)/, '') || '/';
+
+      if (newLanguage === 'en') {
+        newPath = `/en${stripped === '/' ? '' : stripped}`;
       } else {
-        console.error('[LANG] Failed to save language preference');
-        setLanguage(newLanguage);
-        if (typeof window !== 'undefined') {
-          localStorage.setItem('selectedLang', newLanguage);
-          document.cookie = `selectedLang=${newLanguage}; max-age=${365 * 24 * 60 * 60}; path=/; samesite=lax`;
-          document.cookie = `locale=${newLanguage}; max-age=${365 * 24 * 60 * 60}; path=/; samesite=lax`;
-        }
+        newPath = stripped; // ru — без префикса
       }
-    } catch (error) {
-      console.error('[LANG] Error changing language:', error);
-      setLanguage(newLanguage);
-      if (typeof window !== 'undefined') {
-        localStorage.setItem('selectedLang', newLanguage);
-        document.cookie = `selectedLang=${newLanguage}; max-age=${365 * 24 * 60 * 60}; path=/; samesite=lax`;
-        document.cookie = `locale=${newLanguage}; max-age=${365 * 24 * 60 * 60}; path=/; samesite=lax`;
+
+      if (newPath !== pathname) {
+        window.location.href = newPath;
+      } else {
+        setLanguage(newLanguage);
       }
     }
+  };
   };
 
   // Helper function for interpolation
