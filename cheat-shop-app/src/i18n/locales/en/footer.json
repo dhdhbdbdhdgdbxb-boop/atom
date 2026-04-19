@@ -1,0 +1,43 @@
+{
+  "footer": {
+    "description": "The best shop for your needs. Quality, reliability and excellent service.",
+    "copyright": "All rights reserved.",
+    "social": {
+      "telegram": "Telegram",
+      "discord": "Discord",
+      "youtube": "YouTube",
+      "vk": "VK"
+    },
+    "navigation": {
+      "title": "Navigation",
+      "catalog": "Catalog",
+      "faqHelp": "FAQ & Help",
+      "reviews": "Reviews"
+    },
+    "service": {
+      "privacyPolicy": "Privacy Policy",
+      "documents": "Documents",
+      "ourGuarantees": "Our Guarantees",
+      "userAgreement": "User Agreement",
+      "dataProcessing": "Data Processing Consent"
+    },
+    "news": {
+      "partners": "Partners",
+      "elitepvpers": "Elitepvpers",
+      "yougame": "YouGame",
+      "cheatix": "Cheatix",
+      "lolzteam": "Lolzteam"
+    },
+    "terms": "Terms",
+    "privacy": "Privacy",
+    "documents": "Documents",
+    "gfx": "Created by Gustoy",
+    "companyInfo": {
+      "name": "OOO «Global Bridge»",
+      "address": "Company address:",
+      "fullAddress": "Kyrgyz Republic, Bishkek, Oktyabrsky District, 185/1 Yunusalieva Street",
+      "ogrn": "OGRN number: 309678-3301-OOO",
+      "inn": "TAX ID: 9909704508"
+    }
+  }
+}

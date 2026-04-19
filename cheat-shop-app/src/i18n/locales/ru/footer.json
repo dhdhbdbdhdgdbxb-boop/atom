@@ -1,0 +1,43 @@
+{
+  "footer": {
+    "description": "Лучший магазин для ваших нужд. Качество, надежность и отличный сервис.",
+    "copyright": "Все права защищены.",
+    "social": {
+      "telegram": "Telegram",
+      "discord": "Discord",
+      "youtube": "YouTube",
+      "vk": "VK"
+    },
+    "navigation": {
+      "title": "Навигация",
+      "catalog": "Каталог",
+      "faqHelp": "FAQ & Помощь",
+      "reviews": "Отзывы"
+    },
+    "service": {
+      "privacyPolicy": "Политика конфиденциальности",
+      "documents": "Документы",
+      "ourGuarantees": "Наши гарантии",
+      "userAgreement": "Пользовательское соглашение",
+      "dataProcessing": "Согласие на обработку данных"
+    },
+    "news": {
+      "partners": "Партнеры",
+      "elitepvpers": "Elitepvpers",
+      "yougame": "YouGame",
+      "cheatix": "Cheatix",
+      "lolzteam": "Lolzteam"
+    },
+    "terms": "Условия",
+    "privacy": "Конфиденциальность",
+    "documents": "Документы",
+    "gfx": "Создано Gustoy",
+    "companyInfo": {
+      "name": "ОсОО «Глобал Бридж»",
+      "address": "Адрес компании:",
+      "fullAddress": "Кыргызская Республика, г. Бишкек, Октябрьский район, улица Юнусалиева 185/1",
+      "ogrn": "Номер ОГРН: 309678-3301-ООО",
+      "inn": "ИНН: 9909704508"
+    }
+  }
+}

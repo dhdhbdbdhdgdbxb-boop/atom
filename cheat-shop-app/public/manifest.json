@@ -1,0 +1,19 @@
+{
+  "name": "AtomCheats - Premium Game Cheats",
+  "short_name": "AtomCheats",
+  "description": "Premium cheats for popular games with instant delivery and quality guarantee",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#0f172a",
+  "icons": [
+    {
+      "src": "/images/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ],
+  "lang": "ru",
+  "dir": "ltr",
+  "orientation": "portrait-primary"
+}

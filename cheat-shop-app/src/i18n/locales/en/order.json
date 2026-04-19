@@ -1,0 +1,158 @@
+{
+  "order": {
+    "product": "Product",
+    "payment": "Payment",
+    "successfulPayment": "Successful Payment",
+    "deliveryByEmail": "Delivery by Email",
+    "email": "Email",
+    "enterYourEmail": "Enter your email address",
+    "emailDescription": "Enter the email address where you want to receive the product. The invoice will be sent to your email address.",
+    "referralCode": "Referral Code",
+    "enterReferralCode": "Enter referral code",
+    "referralDescription": "Were you referred by someone? Enter the referral code here.",
+    "couponCode": "Coupon Code",
+    "selectPaymentMethod": "Select Payment Method",
+    "creditDebitCards": "Credit/Debit Cards",
+    "cryptocurrency": "Cryptocurrency",
+    "select": "Select",
+    "total": "Total",
+    "orderSummary": "Order Summary",
+    "quantity": "Quantity",
+    "enterCouponCode": "Enter coupon code",
+    "couponDescription": "If you have a discount coupon, enter it here to apply the discount.",
+    "apply": "Apply",
+    "applyCoupon": "Apply Coupon",
+    "couponApplied": "Coupon applied! Discount: {discount}%",
+    "couponInvalid": "Invalid or expired coupon",
+    "couponError": "Error validating coupon",
+    "discount": "Discount",
+    "subtotal": "Subtotal",
+    "paymentMethodFee": "Payment Method Fee",
+    "proceedToPayment": "Proceed to Payment",
+    "paymentSuccessful": "Payment Successful",
+    "paymentSuccessDescription": "Your order has been successfully paid. Delivery information will be sent to your email within 15 minutes.",
+    "orderNumber": "Order Number",
+    "continueShopping": "Continue Shopping",
+    "printReceipt": "Print Receipt",
+    "selectedPaymentMethod": "Selected payment method",
+    "paymentMethod": "Payment Method",
+    "payNow": "Pay Now",
+    "balanceInfo": "Price: ${usd} or ${rub}₽",
+    "orderNotFound": "Order not found",
+    "orderIdCopied": "Order ID copied",
+    "copyOrderId": "Copy order ID",
+    "insufficientBalance": "Insufficient balance",
+    "paymentSuccess": "Payment successful!",
+    "paymentNotAvailable": "Payment through this method is temporarily unavailable. Please choose another payment method.",
+  "paymentMethodNotAvailable": "This payment method is currently unavailable. Please use your account balance.",
+  "paymentMethodDisabled": "This payment method is currently disabled",
+  "disabled": "Disabled",
+    "orderError": "Error creating order",
+    "processing": "Processing...",
+    "noKeysAvailable": "No product keys available. Please contact support.",
+    "goToProfile": "Go to Profile",
+    "backToProduct": "Back to Product",
+    "paymentInstructions": "Payment Instructions",
+    "paymentInstructionsTitle": "Payment Instructions",
+    "paymentInstructionsDescription": "To complete the payment via {method} service, please review the attached instructions by following the link.",
+    "viewFullInstructions": "View Instructions",
+    "viewInstructions": "View Payment Instructions",
+    "contactSupportTitle": "Contact Support for Payment",
+    "contactSupportDescription": "To pay via {method}, please contact our support team through one of the channels below:",
+    "contactViaDiscord": "Contact via Discord",
+    "contactViaTelegram": "Contact via Telegram",
+    "contactSupport": "Contact Support",
+    "contactSupport": "Contact Support",
+    "closeInstructions": "Close",
+    "paymentInstructionTitle": "Payment Instructions",
+    "paymentInstructionDescription": "To continue with payment, please review the instructions on the external resource.",
+    "howToPay": "How to pay with",
+    "instructionStep1": "Go to the official website",
+    "instructionStep2": "Follow the instructions to top up your balance",
+    "instructionStep3": "Return to this page and complete the payment",
+    "readInstructions": "Read instructions",
+    "note": "Note:",
+    "paymentNote": "You will be redirected to an external resource to view the instructions.",
+    "paymentFailed": "Payment Failed",
+    "paymentFailedDescription": "Unfortunately, your payment could not be processed. Please try again or choose another payment method.",
+    "possibleReasons": "Possible reasons",
+    "insufficientFunds": "Insufficient funds",
+    "paymentCancelled": "Payment was cancelled",
+    "technicalError": "Technical error occurred",
+    "timeoutExpired": "Payment timeout expired",
+    "tryAgain": "Try Again",
+    "needHelp": "Need help?",
+    "contactSupport": "Contact Support",
+    "checkEmailForDetails": "Check your email for order details and product keys",
+    "amount": "Amount",
+    "accessDenied": "Access to this order is denied",
+    "alreadyPaid": "This order has already been paid",
+    "waitingForPayment": "Waiting for Payment",
+    "waitingForPaymentDescription": "The payment page has been opened in a new window. Complete the payment there — this page will update automatically.",
+    "openPaymentWindow": "Open payment window again",
+    "cancelPayment": "Cancel",
+    "checkingPayment": "Checking payment status..."
+  },
+  "paymentMethods": {
+    "sbp": {
+      "name": "SBP",
+      "description": "Pay via SBP (Faster Payments System)"
+    },
+    "russianCards": {
+      "name": "RUSSIAN BANK CARDS",
+      "description": "Pay with Russian bank cards"
+    },
+    "antilopay": {
+      "name": "SBP / Russian Cards",
+      "description": "Pay via SBP or Russian bank cards"
+    },
+    "stripe": {
+      "name": "International Card Payment",
+      "description": "Pay with cards worldwide, except Belarus and Russia"
+    },
+    "pally": {
+      "name": "Pay via Pally",
+      "description": "Use this service if payment through the main gateway failed"
+    },
+    "foreignCards": {
+      "name": "BANK CARDS",
+      "description": "Pay with bank cards"
+    },
+    "crypto": {
+      "name": "CRYPTOCURRENCY PAYMENT",
+      "description": "Pay with cryptocurrency"
+    },
+    "cryptocloud": {
+      "name": "CRYPTOCURRENCY PAYMENT",
+      "description": "Pay with cryptocurrency"
+    },
+    "paypal": {
+      "name": "PAYPAL",
+      "description": "Pay with PayPal"
+    },
+    "paysafecard": {
+      "name": "PAYSAFECARD",
+      "description": "Pay with PaySafeCard"
+    },
+    "rewarble": {
+      "name": "REWARBLE",
+      "description": "Pay with Rewarble"
+    },
+    "balance": {
+      "name": "SITE BALANCE",
+      "description": "Pay with your site balance"
+    },
+    "balanceRub": {
+      "name": "SITE BALANCE (RUB)",
+      "description": "Pay with your site balance in rubles"
+    },
+    "balanceUsd": {
+      "name": "SITE BALANCE (USD)",
+      "description": "Pay with your site balance in dollars"
+    },
+    "paypalff": {
+      "name": "PAYPAL F&F",
+      "description": "Pay with PayPal Friends & Family"
+    }
+  }
+}

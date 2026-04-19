@@ -1,0 +1,158 @@
+{
+  "order": {
+    "product": "Товар",
+    "payment": "Оплата",
+    "successfulPayment": "Успешная оплата",
+    "deliveryByEmail": "Доставка по электронной почте",
+    "email": "Электронная почта",
+    "enterYourEmail": "Введите свой адрес электронной почты",
+    "emailDescription": "Введите адрес электронной почты, на который вы хотите получить товар. Счет будет отправлен на ваш электронный адрес.",
+    "referralCode": "Реферальный Код",
+    "enterReferralCode": "Введите реферальный код",
+    "referralDescription": "Вас кто-то направил? Введите здесь код направления.",
+    "couponCode": "Код купона",
+    "selectPaymentMethod": "Выберите Способ Оплаты",
+    "creditDebitCards": "Кредитные / Дебетовые Карты",
+    "cryptocurrency": "Криптовалюта",
+    "select": "Выберите",
+    "total": "Итого",
+    "orderSummary": "Краткое описание заказа",
+    "quantity": "Количество",
+    "enterCouponCode": "Введите код купона",
+    "couponDescription": "Если у вас есть дисконтный купон, введите его здесь, чтобы применить скидку.",
+    "apply": "Применить",
+    "applyCoupon": "Применить купон",
+    "couponApplied": "Купон применён! Скидка: {discount}%",
+    "couponInvalid": "Неверный или просроченный купон",
+    "couponError": "Ошибка при проверке купона",
+    "discount": "Скидка",
+    "subtotal": "Промежуточный итог",
+    "paymentMethodFee": "Комиссия за способ оплаты",
+    "proceedToPayment": "Перейти к оплате",
+    "paymentSuccessful": "Оплата прошла успешно",
+    "paymentSuccessDescription": "Ваш заказ успешно оплачен. Информация о доставке будет отправлена на вашу электронную почту в течение 15 минут.",
+    "orderNumber": "Номер заказа",
+    "continueShopping": "Продолжить покупки",
+    "printReceipt": "Распечатать квитанцию",
+    "selectedPaymentMethod": "Выбранный способ оплаты",
+    "paymentMethod": "Способ оплаты",
+    "payNow": "Оплатить сейчас",
+    "balanceInfo": "Стоимость: ${usd} или ${rub}₽",
+    "orderNotFound": "Заказ не найден",
+    "orderIdCopied": "ID заказа скопирован",
+    "copyOrderId": "Копировать ID заказа",
+    "insufficientBalance": "Недостаточно средств на балансе",
+   "paymentSuccess": "Оплата прошла успешно!",
+   "paymentNotAvailable": "Оплата через этот метод временно недоступна. Пожалуйста, выберите другой способ оплаты.",
+  "paymentMethodNotAvailable": "Этот способ оплаты в настоящее время недоступен. Пожалуйста, используйте баланс аккаунта.",
+  "paymentMethodDisabled": "Этот способ оплаты в настоящее время отключен",
+  "disabled": "Отключен",
+   "orderError": "Ошибка при оформлении заказа",
+   "processing": "Обработка...",
+   "noKeysAvailable": "Нет доступных ключей для товара. Пожалуйста, свяжитесь с поддержкой.",
+   "goToProfile": "Перейти в профиль",
+   "backToProduct": "Вернуться к товару",
+   "paymentInstructions": "Инструкция по оплате",
+   "paymentInstructionsTitle": "Инструкция по оплате",
+   "paymentInstructionsDescription": "Для завершения платежа через сервис {method}, пожалуйста, ознакомьтесь с прилагаемой инструкцией, перейдя по ссылке.",
+   "viewFullInstructions": "Просмотреть инструкцию",
+   "viewInstructions": "Посмотреть инструкции по оплате",
+   "contactSupportTitle": "Свяжитесь с поддержкой для оплаты",
+   "contactSupportDescription": "Для оплаты через {method}, пожалуйста, свяжитесь с нашей службой поддержки через один из каналов ниже:",
+   "contactViaDiscord": "Связаться через Discord",
+   "contactViaTelegram": "Связаться через Telegram",
+   "contactSupport": "Связаться с поддержкой",
+   "contactSupport": "Связаться с поддержкой",
+   "closeInstructions": "Закрыть",
+   "paymentInstructionTitle": "Инструкция по оплате",
+   "paymentInstructionDescription": "Для продолжения оплаты, пожалуйста, ознакомьтесь с инструкцией на внешнем ресурсе.",
+   "howToPay": "Как оплатить с помощью",
+   "instructionStep1": "Перейдите на официальный сайт",
+   "instructionStep2": "Следуйте инструкциям по пополнению баланса",
+   "instructionStep3": "Вернитесь на эту страницу и завершите оплату",
+   "readInstructions": "Прочитать инструкцию",
+   "note": "Примечание:",
+   "paymentNote": "Вы будете перенаправлены на внешний ресурс для ознакомления с инструкцией.",
+   "paymentFailed": "Оплата не прошла",
+   "paymentFailedDescription": "К сожалению, ваш платеж не был обработан. Пожалуйста, попробуйте снова или выберите другой способ оплаты.",
+   "possibleReasons": "Возможные причины",
+   "insufficientFunds": "Недостаточно средств",
+   "paymentCancelled": "Платеж был отменен",
+   "technicalError": "Произошла техническая ошибка",
+   "timeoutExpired": "Истекло время ожидания платежа",
+   "tryAgain": "Попробовать снова",
+   "needHelp": "Нужна помощь?",
+   "contactSupport": "Связаться с поддержкой",
+   "checkEmailForDetails": "Проверьте свою электронную почту для получения деталей заказа и ключей продукта",
+   "amount": "Сумма",
+   "accessDenied": "Доступ к этому заказу запрещен",
+   "alreadyPaid": "Этот заказ уже оплачен",
+   "waitingForPayment": "Ожидание оплаты",
+   "waitingForPaymentDescription": "Платёжная страница открыта в новом окне. Завершите оплату там — эта страница обновится автоматически.",
+   "openPaymentWindow": "Открыть окно оплаты снова",
+   "cancelPayment": "Отменить",
+   "checkingPayment": "Проверяем статус оплаты..."
+  },
+  "paymentMethods": {
+    "sbp": {
+      "name": "СБП",
+      "description": "Оплата через СБП"
+    },
+    "russianCards": {
+      "name": "КАРТЫ БАНКОВ РОССИИ",
+      "description": "Оплата картами российских банков"
+    },
+    "antilopay": {
+      "name": "Оплата СБП / Российскими картами",
+      "description": "Оплата через СБП и карты российских банков"
+    },
+    "stripe": {
+      "name": "Оплата международными картами",
+      "description": "Оплата картами по всему миру, кроме Беларуси и РФ"
+    },
+    "pally": {
+      "name": "Оплата через Pally",
+      "description": "Используйте данный сервис, если оплата через основной шлюз не прошла"
+    },
+    "foreignCards": {
+      "name": "ИНОСТРАННЫЕ КАРТЫ",
+      "description": "Оплата иностранными банковскими картами"
+    },
+    "crypto": {
+      "name": "ОПЛАТА КРИПТОВАЛЮТАМИ",
+      "description": "Оплата криптовалютой"
+    },
+    "cryptocloud": {
+      "name": "ОПЛАТА КРИПТОВАЛЮТОЙ",
+      "description": "Оплата криптовалютой"
+    },
+    "paypal": {
+      "name": "PAYPAL",
+      "description": "Оплата через PayPal"
+    },
+    "paysafecard": {
+      "name": "PAYSAFECARD",
+      "description": "Оплата через PaySafeCard"
+    },
+    "rewarble": {
+      "name": "REWARBLE",
+      "description": "Оплата через Rewarble"
+    },
+    "balance": {
+      "name": "БАЛАНС САЙТА",
+      "description": "Оплата с баланса вашего аккаунта"
+    },
+    "balanceRub": {
+      "name": "БАЛАНС САЙТА (RUB)",
+      "description": "Оплата с баланса в рублях"
+    },
+    "balanceUsd": {
+      "name": "БАЛАНС САЙТА (USD)",
+      "description": "Оплата с баланса в долларах"
+    },
+    "paypalff": {
+      "name": "PAYPAL F&F",
+      "description": "Оплата через PayPal Friends & Family"
+    }
+  }
+}

@@ -1,0 +1,85 @@
+USER AGREEMENT
+Revision dated: 30.11.2025
+Website: https://atomcheats.com/
+
+This Agreement is a public offer and defines the terms of use for materials and services located on the website on the Internet at the address: https://atomcheats.com/ (hereinafter referred to as the "Site" or "Service").
+
+By visiting the Site, purchasing or using any software (Products) posted on the Site, you confirm your full and unconditional agreement with the terms of this Agreement.
+
+1. TERMS AND DEFINITIONS
+
+1.1. Administration — the person or group of persons managing the atomcheats.com domain and providing access to the Products.
+1.2. Auxiliary Software (Product) — software, digital goods, license key, or script providing the User with additional functional capabilities, process automation, or modification of user software parameters provided for by the functionality of the corresponding software.
+1.3. User — an individual visiting the Site who has completed the registration procedure and/or made payment for a Product.
+1.4. License — a limited, non-exclusive right to use the Product for personal purposes during the paid period of time.
+1.5. Age Restriction — The User confirms that they have reached the age allowing them to conclude contracts (make purchases) in accordance with the legislation of the country of their citizenship or residence.
+
+2. SUBJECT OF THE AGREEMENT
+
+2.1. The Administration grants the User the right of access to use the Auxiliary Software on the terms of a simple (non-exclusive) license.
+2.2. Products are provided on an "As Is" basis. The Administration does not guarantee that the software will meet the subjective expectations of the User if the functionality corresponds to the technical description at the time of purchase.
+2.3. Acquiring the Product does not imply the transfer of exclusive rights to the software to the User. The User receives only a temporary right to launch and operate the software.
+
+3. REFUND POLICY
+
+Digital goods (license keys) of proper quality are not subject to return or exchange for similar goods according to consumer protection legislation, as they possess individually defined properties.
+However, the Service provides for the following rules:
+
+3.1. Refunds are NOT made in the following cases:
+— Fact of viewing/usage: The Product (license key or access data) is considered used from the moment it is displayed to the User in the browser, personal account, or sent to e-mail. After the key or access data is displayed on the User's side, the Administration technically does not have the ability to revoke, hide, or reset the provided information, which excludes the possibility of a return.
+— Operability: The Product was activated and functions in accordance with the stated characteristics. The fact of activation, launch, or use of the Product is confirmed by server logs or the Administration's internal licensing system.
+— Refusal to cooperate: A technical problem arose, but the User refuses to follow Technical Support instructions, provide logs, screenshots, or delete conflicting software.
+— Transfer to third parties: A fact of transferring the key or Product files to third parties has been established.
+— Inattention: The User purchased the Product without prior review of system requirements, region of use, or compatibility list (OS version, Windows build, processor model).
+— Blocking by developer: The operation of the Product was stopped by the developer of the third-party software, or the Product received a "Detected" status by game protection systems. The Administration is an intermediary and is not responsible for the actions of third parties (game and software developers).
+
+3.2. Refunds are POSSIBLE in the following cases:
+— Technical malfunction: The Product does not work on the User's device, and the Service's Technical Support specialists confirmed the impossibility of launching (provided that the User's device fully complies with all stated system requirements, requirements are indicated on the Product page).
+— Erroneous purchase: The Product was paid for, but the activation key was not issued/shown to the User (technical failure on the store's side) or the User refused to receive the key prior to viewing it. Refund is impossible if the key has already been received by the User via e-mail, personal account, or displayed in the Site interface.
+
+3.3. Refund Procedure:
+— Refund is made only to the details from which the payment was made.
+— The refund processing period is up to 30 working days. The period may be unilaterally extended in case of additional security checks by the payment aggregator or the issuing bank.
+
+4. BLOCKING ACCESS AND SANCTIONS
+
+4.1. The Administration reserves the right to block the User's access to Products and the Site without a refund in the following cases:
+— Financial fraud: The User initiated a transaction cancellation procedure (chargeback) or opened a dispute in the payment system/bank with the aim of returning funds bypassing the Service rules.
+— Violation of usage rules: A fact of reselling the key, transferring access to third parties, attempting to hack ("crack") the software, or analyzing the Product code is revealed.
+— Destructive behavior: Insults, threats, or spam directed at the Administration or Technical Support.
+
+5. LIMITATION OF LIABILITY (LIABILITY DISCLAIMER)
+
+5.1. Risks of use: The User realizes that the use of any modifying software that gives an advantage or automates processes may contradict the rules of game/application developers.
+5.2. Account blocking: The Administration is not responsible for any consequences of using the Product, including (but not limited to): blocking of game accounts, loss of in-game values, statuses, or access to games. The User accepts this risk in full.
+5.3. Changes to Software: The Product developer has the right to make changes to functionality, menus, or visuals without notice. Temporary disabling of individual functions for security updates is not grounds for a refund, provided that the main functionality of the Product remains available. Main functionality is understood as key capabilities stated in the Product description, excluding additional and experimental functions (Beta).
+
+6. AML/KYC POLICY (ANTI-FRAUD)
+
+6.1. The Service adheres to international standards for combating money laundering and carding.
+6.2. Transaction security: The use of VPN, Tor, proxy servers, and other anonymization tools when paying may lead to additional transaction verification and suspension of order processing. The User agrees that the use of anonymization tools may negatively affect the correctness of payment processing by the payment aggregator.
+6.3. Verification: Upon detection of suspicious activity (transaction risk factors), the Administration has the right to request confirmation of ownership of the payment method.
+6.4. Confirmation format: The User is obliged to provide a photo of the bank card or a screenshot from online banking.
+ATTENTION: Only the last 4 digits of the card number and the holder's Full Name should be visible in the image. The remaining data (first digits of the number, expiration date, CVV/CVC code) must be hidden by the User.
+
+7. PRIVACY AND PERSONAL DATA
+
+7.1. Processing of the User's personal data is carried out in accordance with applicable legislation (including Federal Law-152 "On Personal Data", as well as other applicable international legislation in the field of data protection).
+7.2. The Administration collects data necessary for the execution of the license agreement: E-mail, IP address, PC hardware data (HWID) for license binding.
+7.3. Transfer to third parties: Data transfer to the software developer is performed strictly in the minimum necessary volume (for example, only the unique key identifier and HWID) and exclusively for the purposes of technical activation of the license.
+7.4. The User agrees that technical data (program operation logs) may be used to improve the quality of the Product. Logs do not contain personal information and are used exclusively for technical purposes.
+
+8. PERSONAL ACCOUNT BALANCE
+
+8.1. Nature of funds: Funds credited to the balance of the User's Personal Account are virtual units intended exclusively for paying for Products on the Site. These funds are not electronic money, a means of payment, or a bank deposit, but represent a prepayment for future Licenses (rights to use software).
+8.2. Use: Funds from the balance can be used only for purchasing Products within the framework of the Service functionality.
+8.3. Withdrawal restrictions: Funds deposited to the balance are not subject to reverse exchange for fiat money (withdrawal to bank cards, wallets), except for cases expressly provided for by current consumer protection legislation. In cases where a refund is mandatory by law, it is made minus the actual expenses incurred by the Service (payment system commissions).
+8.4. Adjustment: The Administration reserves the right to annul or correct the User's balance in case of identifying technical errors, failures in the operation of payment systems, as well as in case of reasonable suspicion of fraud or violation of the AML/KYC policy.
+8.5. Balance upon blocking: In case of account blocking, unused funds on the balance may be withheld as a penalty if the blocking is caused by fraudulent actions of the User, use of stolen payment means ("carding"), or intentional infliction of damage to the Service. In other cases, the User has the right to request a refund of the unused part of the prepayment by sending a written application to the support service.
+
+9. FINAL PROVISIONS
+
+9.1. The Administration reserves the right to make changes to the text of this Agreement unilaterally. The current version is always available on the Site.
+9.2. All disputes and disagreements are resolved through negotiations via the atomcheats.com support service.
+9.3. In case of impossibility to settle the dispute through negotiations, the dispute is subject to consideration at the location of the Administration, which is determined by the Administration. The location of the Administration is considered the territory of its registration or actual conduct of activity.
+9.4. The law and legislation of the country of residence (registration) of the Administration applies to the relations of the parties arising from this Agreement.

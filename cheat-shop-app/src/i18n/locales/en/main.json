@@ -1,0 +1,115 @@
+{
+  "main": {
+    "hero": {
+      "badges": {
+        "sales": "Over 1000 sales",
+        "reliable": "Reliable cheats"
+      },
+      "title": {
+        "line1": "Play by your own rules",
+        "line2": "Turn advantage into dominance"
+      },
+      "description": "Best premium solutions for online games. Reliable cheats, maximum security, and priority support for every user.",
+      "imageAlt": "AtomCheats - premium gaming solutions for cheats",
+      "buttons": {
+        "viewCatalog": "View catalog",
+        "viewAll": "View all"
+      },
+      "stats": {
+        "successfulDeals": {
+          "value": "100%",
+          "desc": "Successful deals completed"
+        },
+        "products": {
+          "value": "200+",
+          "desc": "Products in catalog"
+        },
+        "games": {
+          "value": "100+",
+          "desc": "Supported game projects"
+        }
+      }
+    },
+    "features": {
+      "title": "Why choose us",
+      "subtitle": "We provide the best service on the market",
+      "items": [
+        {
+          "title": "Instant delivery",
+          "description": "Automatic product delivery immediately after payment, no waiting"
+        },
+        {
+          "title": "100% safety",
+          "description": "All products undergo thorough detection testing"
+        },
+        {
+          "title": "24/7 support",
+          "description": "Our support team is always ready to help at any time"
+        },
+        {
+          "title": "Quality guarantee",
+          "description": "Refund in case of product malfunction"
+        },
+        {
+          "title": "Premium quality",
+          "description": "Only verified and quality products from the best developers"
+        },
+        {
+          "title": "Confidentiality",
+          "description": "Complete anonymity and protection of your personal data"
+        }
+      ]
+    },
+    "products": {
+      "title": "Our Products",
+      "subtitle": "Wide selection of solutions for popular games"
+    },
+    "games": {
+      "cs2": {
+        "name": "Counter-Strike 2",
+        "products": "15 products",
+        "priceFrom": "from 499 ₽"
+      },
+      "apex": {
+        "name": "Apex Legends",
+        "products": "8 products",
+        "priceFrom": "from 799 ₽"
+      },
+      "fortnite": {
+        "name": "Fortnite",
+        "products": "12 products",
+        "priceFrom": "from 599 ₽"
+      },
+      "valorant": {
+        "name": "Valorant",
+        "products": "6 products",
+        "priceFrom": "from 899 ₽"
+      },
+      "cod": {
+        "name": "Call of Duty",
+        "products": "10 products",
+        "priceFrom": "from 699 ₽"
+      },
+      "r6": {
+        "name": "Rainbow Six",
+        "products": "7 products",
+        "priceFrom": "from 749 ₽"
+      },
+      "tarkov": {
+        "name": "Escape from Tarkov",
+        "products": "5 products",
+        "priceFrom": "from 1299 ₽"
+      },
+      "pubg": {
+        "name": "PUBG",
+        "products": "9 products",
+        "priceFrom": "from 549 ₽"
+      },
+      "rust": {
+        "name": "Rust",
+        "products": "4 products",
+        "priceFrom": "from 999 ₽"
+      }
+    }
+  }
+}

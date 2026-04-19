@@ -1,0 +1,55 @@
+{
+  "deposit": {
+    "title": "Пополнение баланса",
+    "step1": "Оплата",
+    "step2": "Успех",
+    "amountLabel": "Сумма пополнения",
+    "methodLabel": "Способ оплаты",
+    "debugUsd": "DEBUG USD",
+    "debugRub": "DEBUG RUB",
+    "cryptoUsd": "Оплата криптовалютой",
+    "debugUsdDesc": "Тестовое пополнение USD",
+    "debugRubDesc": "Тестовое пополнение RUB",
+    "cryptoUsdDesc": "Оплата криптовалютой",
+    "limits": "Лимиты: {{min}}-{{max}} {{currency}}",
+    "validation": {
+      "required": "Введите сумму",
+      "invalidNumber": "Введите корректное число",
+      "minAmount": "Минимальная сумма: {{amount}} {{currency}}",
+      "maxAmount": "Максимальная сумма: {{amount}} {{currency}}",
+      "decimalPlaces": "Не более 2 знаков после запятой",
+      "positive": "Сумма должна быть больше 0"
+    },
+    "securityInfo": "Безопасная оплата",
+    "terms": "Я соглашаюсь с условиями обслуживания и политикой конфиденциальности",
+    "payButton": "Пополнить",
+    "processing": "Обработка...",
+    "amountDescription": "Введите сумму, которую хотите добавить на баланс",
+    "depositSummary": "Сводка пополнения",
+    "selectPaymentMethod": "Выберите способ оплаты",
+    "selectedPaymentMethod": "Выбранный способ оплаты",
+    "amount": "Сумма",
+    "paymentFee": "Комиссия",
+    "total": "Итого",
+    "depositAmount": "Сумма пополнения",
+    "paymentMethod": "Способ оплаты",
+    "success": {
+      "title": "Баланс успешно пополнен!",
+      "message": "На ваш баланс зачислено",
+      "messageFull": "На ваш баланс зачислено {{amount}} {{currency}}",
+      "newDeposit": "Пополнить еще",
+      "toCatalog": "В каталог"
+    },
+    "errors": {
+      "methodRequired": "Выберите способ оплаты",
+      "termsRequired": "Необходимо согласие с условиями",
+      "paymentFailed": "Не удалось обновить баланс. Попробуйте еще раз."
+    },
+    "paymentMethodsDisabled": "Все способы оплаты в настоящее время отключены. Пожалуйста, используйте баланс аккаунта для покупок.",
+    "allMethodsDisabled": "Все способы оплаты в настоящее время отключены",
+    "useBalanceForPurchases": "Пожалуйста, используйте баланс аккаунта для покупок",
+    "paymentMethodDisabled": "Этот способ оплаты в настоящее время отключен",
+    "disabled": "Отключен",
+    "notAuthenticated": "Пожалуйста, войдите в систему, чтобы продолжить"
+  }
+}

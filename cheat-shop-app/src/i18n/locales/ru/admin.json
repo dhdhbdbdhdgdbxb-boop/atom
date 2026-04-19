@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "title": {
+      "access": "Доступ к админке",
+      "signIn": "Войдите для продолжения"
+    },
+    "form": {
+      "email": {
+        "placeholder": "admin@example.com"
+      },
+      "password": {
+        "placeholder": "Пароль"
+      }
+    },
+    "validation": {
+      "emailRequired": "Email обязателен",
+      "emailInvalid": "Некорректный формат email",
+      "passwordRequired": "Пароль обязателен"
+    },
+    "buttons": {
+      "signIn": "Войти",
+      "signingIn": "Вход...",
+      "showPassword": "Показать пароль",
+      "hidePassword": "Скрыть пароль"
+    },
+    "errors": {
+      "loginError": "Ошибка входа"
+    },
+    "footer": {
+      "securePortal": "Безопасный админ-портал"
+    },
+    "news": {
+      "title": "Управление новостями",
+      "create": "Создать новость",
+      "edit": "Редактировать новость",
+      "delete": "Удалить новость",
+      "list": "Список новостей",
+      "form": {
+        "title": "Заголовок",
+        "slug": "URL-адрес",
+        "excerpt": "Краткое описание",
+        "content": "Содержание",
+        "featuredImage": "Главное изображение",
+        "author": "Автор",
+        "status": "Статус",
+        "isPublished": "Опубликовано",
+        "isRecommended": "Рекомендуемое",
+        "sortOrder": "Порядок сортировки",
+        "metaTitle": "Meta-заголовок",
+        "metaDescription": "Meta-описание",
+        "keywords": "Ключевые слова",
+        "placeholder": {
+          "title": "Введите заголовок новости",
+          "slug": "url-novosti",
+          "excerpt": "Краткое описание новости...",
+          "content": "Полный текст новости...",
+          "author": "Имя автора",
+          "metaTitle": "Meta-заголовок для SEO",
+          "metaDescription": "Meta-описание для поисковых систем",
+          "keywords": "ключевое, слово, для, SEO"
+        }
+      },
+      "status": {
+        "draft": "Черновик",
+        "published": "Опубликовано",
+        "archived": "Архивировано"
+      },
+      "actions": {
+        "create": "Создать",
+        "update": "Обновить",
+        "cancel": "Отмена",
+        "delete": "Удалить",
+        "publish": "Опубликовать",
+        "unpublish": "Снять с публикации",
+        "makeRecommended": "Сделать рекомендуемым",
+        "removeRecommended": "Убрать из рекомендуемых"
+      },
+      "messages": {
+        "created": "Новость успешно создана",
+        "updated": "Новость успешно обновлена",
+        "deleted": "Новость успешно удалена",
+        "published": "Новость опубликована",
+        "unpublished": "Новость снята с публикации",
+        "error": "Ошибка при работе с новостью"
+      },
+      "confirm": {
+        "delete": "Вы уверены, что хотите удалить эту новость?"
+      }
+    }
+  }
+}

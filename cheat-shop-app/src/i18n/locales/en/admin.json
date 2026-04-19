@@ -1,0 +1,91 @@
+{
+  "admin": {
+    "title": {
+      "access": "Admin Access",
+      "signIn": "Sign in to continue"
+    },
+    "form": {
+      "email": {
+        "placeholder": "admin@example.com"
+      },
+      "password": {
+        "placeholder": "Password"
+      }
+    },
+    "validation": {
+      "emailRequired": "Email is required",
+      "emailInvalid": "Invalid email format",
+      "passwordRequired": "Password is required"
+    },
+    "buttons": {
+      "signIn": "Sign In",
+      "signingIn": "Signing in...",
+      "showPassword": "Show password",
+      "hidePassword": "Hide password"
+    },
+    "errors": {
+      "loginError": "Login error"
+    },
+    "footer": {
+      "securePortal": "Secure admin portal"
+    },
+    "news": {
+      "title": "News Management",
+      "create": "Create News",
+      "edit": "Edit News",
+      "delete": "Delete News",
+      "list": "News List",
+      "form": {
+        "title": "Title",
+        "slug": "URL Slug",
+        "excerpt": "Excerpt",
+        "content": "Content",
+        "featuredImage": "Featured Image",
+        "author": "Author",
+        "status": "Status",
+        "isPublished": "Published",
+        "isRecommended": "Recommended",
+        "sortOrder": "Sort Order",
+        "metaTitle": "Meta Title",
+        "metaDescription": "Meta Description",
+        "keywords": "Keywords",
+        "placeholder": {
+          "title": "Enter news title",
+          "slug": "news-url",
+          "excerpt": "Brief description of the news...",
+          "content": "Full news content...",
+          "author": "Author name",
+          "metaTitle": "SEO meta title",
+          "metaDescription": "SEO meta description for search engines",
+          "keywords": "keyword, for, SEO"
+        }
+      },
+      "status": {
+        "draft": "Draft",
+        "published": "Published",
+        "archived": "Archived"
+      },
+      "actions": {
+        "create": "Create",
+        "update": "Update",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "publish": "Publish",
+        "unpublish": "Unpublish",
+        "makeRecommended": "Make Recommended",
+        "removeRecommended": "Remove Recommended"
+      },
+      "messages": {
+        "created": "News created successfully",
+        "updated": "News updated successfully",
+        "deleted": "News deleted successfully",
+        "published": "News published",
+        "unpublished": "News unpublished",
+        "error": "Error working with news"
+      },
+      "confirm": {
+        "delete": "Are you sure you want to delete this news?"
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "_comment": "CryptoCloud Payment Gateway Configuration",
+  "_instructions": [
+    "1. Register at https://cryptocloud.plus",
+    "2. Create a new shop and get your Shop ID and API Key",
+    "3. Set up webhook URL: https://yoursite.com/api/payments/cryptocloud/webhook",
+    "4. Copy this file to cryptocloud.json and fill in your credentials",
+    "5. Set enabled to true to activate cryptocurrency payments"
+  ],
+  "enabled": false,
+  "shopId": "your_shop_id_here",
+  "apiKey": "your_api_key_here",
+  "testMode": true,
+  "_notes": {
+    "enabled": "Set to true to enable CryptoCloud payments",
+    "shopId": "Your shop ID from CryptoCloud dashboard",
+    "apiKey": "Your API key from CryptoCloud dashboard", 
+    "testMode": "Set to false for production, true for testing"
+  }
+}

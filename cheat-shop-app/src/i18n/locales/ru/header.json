@@ -1,0 +1,26 @@
+{
+  "header": {
+    "logo": "AtomCheats",
+    "navigation": {
+      "catalog": "Каталог",
+      "news": "Новости",
+      "reviews": "Отзывы",
+      "faq": "FAQ & Помощь"
+    },
+    "searchPlaceholder": "Поиск...",
+    "changeLanguage": "Сменить язык",
+    "userMenu": {
+      "profile": "Профиль",
+      "signOut": "Выйти",
+      "balance": "Баланс",
+      "deposit": "Пополнить баланс"
+    },
+    "authButtons": {
+      "signIn": "Войти",
+      "signUp": "Регистрация"
+    },
+    "mobileMenu": {
+      "search": "Поиск"
+    }
+  }
+}

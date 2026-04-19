@@ -1,0 +1,16 @@
+{
+  "reviews": {
+    "title": "Reviews",
+    "subtitle": "Customer reviews",
+    "inDevelopment": {
+      "title": "Page Under Development",
+      "description": "We are working on creating a reviews section. Here will be published customer reviews about our products and service.",
+      "features": [
+        "Product reviews",
+        "Ratings and scores",
+        "User comments",
+        "Verified purchases"
+      ]
+    }
+  }
+}

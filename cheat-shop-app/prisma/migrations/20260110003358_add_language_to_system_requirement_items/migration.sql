@@ -1,0 +1,2 @@
+-- AlterTable
+ALTER TABLE `product_system_requirement_items` MODIFY `language` VARCHAR(10) NOT NULL DEFAULT 'ru';

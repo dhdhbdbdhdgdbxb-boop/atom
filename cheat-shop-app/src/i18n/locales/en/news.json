@@ -1,0 +1,19 @@
+{
+  "news": {
+    "title": "News",
+    "subtitle": "Latest news and updates",
+    "inDevelopment": {
+      "title": "Page Under Development",
+      "description": "We are working on creating a news section. Here will be published the latest updates, new products and important announcements.",
+      "features": [
+        "Product release news",
+        "Security updates",
+        "Special offers",
+        "Technical announcements"
+      ],
+      "comingSoon": "Coming soon with lots of interesting content!",
+      "backToCatalog": "Go to catalog",
+      "developmentProgress": "Development Progress"
+    }
+  }
+}

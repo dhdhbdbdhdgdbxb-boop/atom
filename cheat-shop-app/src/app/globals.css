@@ -1,0 +1,92 @@
+@import "tailwindcss";
+
+:root {
+  --background: #0f172a;
+  --foreground: #ffffff;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: 'Inter', 'Manrope', Arial, Helvetica, sans-serif;
+}
+
+/* Кастомный скроллбар для вебкит браузеров (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1e293b;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #475569;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: #94a3b8;
+}
+
+::-webkit-scrollbar-corner {
+  background: #1e293b;
+}
+
+/* Для Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #475569 #1e293b;
+}
+
+/* Для Internet Explorer */
+body {
+  scrollbar-face-color: #475569;
+  scrollbar-track-color: #1e293b;
+  scrollbar-arrow-color: #64748b;
+  scrollbar-shadow-color: #475569;
+  scrollbar-highlight-color: #475569;
+  scrollbar-3dlight-color: #1e293b;
+  scrollbar-darkshadow-color: #1e293b;
+}
+
+/* Дополнительные стили для плавного скролла */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Стили для скроллбара в модальных окнах и боковых панелях */
+.modal-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.modal-scroll::-webkit-scrollbar-track {
+  background: #0f172a;
+  border-radius: 3px;
+}
+
+.modal-scroll::-webkit-scrollbar-thumb {
+  background: #334155;
+  border-radius: 3px;
+}
+
+/* Темная тема скроллбара */
+@media (prefers-color-scheme: dark) {
+  ::-webkit-scrollbar-track {
+    background: #0f172a;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #334155;
+  }
+   
+  ::-webkit-scrollbar-thumb:hover {
+    background: #475569;
+  }
+}

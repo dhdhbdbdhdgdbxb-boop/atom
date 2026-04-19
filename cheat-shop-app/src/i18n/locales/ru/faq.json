@@ -1,0 +1,112 @@
+{
+  "faq": {
+    "title": "FAQ & Помощь",
+    "subtitle": "Найдите ответы на часто задаваемые вопросы о наших продуктах и услугах",
+    "download": "Скачать",
+    "supportTitle": "Связаться с поддержкой",
+    "telegramTitle": "Поддержка через Telegram Bot",
+    "telegramDescription": "Вы можете связаться с нашей службой поддержки через Telegram bot. Следуйте этим шагам:",
+    "telegramSteps": [
+      "Запустить бота @atomcheats_bot",
+      "Выбрать язык",
+      "Нажать на кнопку создания тикета",
+      "Указать проблему"
+    ],
+    "discordTitle": "Поддержка через Discord Server",
+    "discordDescription": "Вы также можете связаться с нашей службой поддержки через наш Discord сервер. Следуйте этим шагам:",
+    "discordSteps": [
+      "Присоединиться к Discord серверу",
+      "Верифицироваться на сервере",
+      "Выбрать язык (ru/en)",
+      "Создать тикет"
+    ],
+    "telegramBot": "@atomcheats_bot",
+    "discordServer": "discord.gg/atomcheats",
+    "joinDiscord": "Перейти",
+    "openTelegram": "Перейти",
+    "goToTelegram": "Открыть Telegram",
+    "goToDiscord": "Открыть Discord",
+    "softwareTitle": "Необходимое программное обеспечение",
+    "softwareDescription": "Скачайте и установите необходимое программное обеспечение для корректной работы наших продуктов:",
+    "driversTitle": "Драйверы",
+    "drivers": [
+      {
+        "name": "Microsoft Visual C++ 2005-2019",
+        "url": "https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/",
+        "description": "Необходимо для запуска приложений, разработанных с использованием Visual C++"
+      },
+      {
+        "name": "DirectX 12",
+        "url": "https://download.microsoft.com/download/1/7/1/1718CCC4-6315-4D8E-9543-8E28A4E18C4C/dxwebsetup.exe",
+        "description": "Необходимо для графических и мультимедийных приложений"
+      },
+      {
+        "name": "Microsoft .NET Framework",
+        "url": "https://dotnet.microsoft.com/en-us/download/dotnet-framework",
+        "description": "Необходимо для запуска .NET приложений"
+      },
+      {
+        "name": "Драйверы NVIDIA",
+        "url": "https://www.nvidia.com/en-eu/drivers/",
+        "description": "Последние драйверы для видеокарт NVIDIA"
+      },
+      {
+        "name": "Драйверы AMD",
+        "url": "https://www.amd.com/en/support/download/drivers.html",
+        "description": "Последние драйверы для видеокарт AMD"
+      }
+    ],
+    "protectionTitle": "Отключение защиты",
+    "protection": [
+      {
+        "name": "Отключение Windows Defender",
+        "url": "https://www.sordum.org/9480/defender-control-v2-1/",
+        "description": "Инструмент для отключения Windows Defender (пароль: sordum)"
+      },
+      {
+        "name": "Как отключить Secure Boot (RU) / How to disable Secure Boot (EN)",
+        "url": "https://www.youtube.com/watch?v=RjwT85icNHg",
+        "description": "Видеоинструкция по отключению Secure Boot на русском и английском языках"
+      },
+      {
+        "name": "Как включить UEFI (RU) / How to enable UEFI (EN)",
+        "url": "https://learn.microsoft.com/ru-ru/windows/deployment/mbr-to-gpt?source=recommendations",
+        "description": "Руководство по включению режима UEFI на русском и английском языках"
+      }
+    ],
+    "programsTitle": "Программы для поддержки",
+    "programs": [
+      {
+        "name": "Lightshot",
+        "url": "https://app.prntscr.com/en/download.html",
+        "description": "Инструмент для создания скриншотов"
+      },
+      {
+        "name": "RustDesk",
+        "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.4.5",
+        "description": "Программа для удаленного доступа"
+      },
+      {
+        "name": "AnyDesk",
+        "url": "https://anydesk.com/",
+        "description": "Программа для удаленного доступа"
+      }
+    ],
+    "visualCppDescription": "Необходимые компоненты среды выполнения для многих приложений и игр Windows",
+    "directxDescription": "Новейший мультимедийный API для игр и высокопроизводительных приложений",
+    "netFrameworkDescription": "Необходимая платформа для многих приложений и программ Windows",
+    "nvidiaDrivers": "Драйверы NVIDIA",
+    "nvidiaDescription": "Последние графические драйверы для видеокарт NVIDIA",
+    "amdDrivers": "Драйверы AMD",
+    "amdDescription": "Последние графические драйверы для видеокарт AMD",
+    "defenderControl": "Отключение Windows Defender",
+    "defenderDescription": "Отключить Windows Defender (пароль: sordum)",
+    "secureBootTitle": "Как отключить Secure Boot",
+    "secureBootDescription": "Видеоинструкция по отключению Secure Boot в BIOS/UEFI",
+    "uefiTitle": "Как включить UEFI",
+    "uefiDescription": "Официальное руководство Microsoft по включению режима UEFI",
+    "lightshotDescription": "Легкий инструмент для создания скриншотов с быстрой отправкой",
+    "rustdeskDescription": "Программа удаленного рабочего стола с открытым исходным кодом для технической поддержки",
+    "anydeskDescription": "Быстрое и безопасное программное обеспечение для удаленного доступа"
+  }
+}

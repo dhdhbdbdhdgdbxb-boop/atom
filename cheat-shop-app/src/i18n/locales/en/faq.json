@@ -1,0 +1,115 @@
+{
+  "faq": {
+    "title": "FAQ & Help",
+    "subtitle": "Find answers to common questions about our products and services",
+    "download": "Download",
+    "supportTitle": "Contact Support",
+    "telegramTitle": "Telegram Bot Support",
+    "telegramDescription": "You can contact our support team through the Telegram bot. Follow these steps:",
+    "telegramSteps": [
+      "Go to the bot @atomcheats_bot (click to copy username to clipboard)",
+      "Launch the bot using the START button",
+      "Select the bot language",
+      "Click on the button to create a new ticket",
+      "Select the ticket topic",
+      "Describe your problem",
+      "Create the ticket"
+    ],
+    "discordTitle": "Discord Server Support",
+    "discordDescription": "You can also contact our support team through our Discord server. Follow these steps:",
+    "discordSteps": [
+      "Join our Discord server using the link below",
+      "Verify your account on the server",
+      "Select your language (Russian or English)",
+      "Go to the support channel and create a ticket"
+    ],
+    "telegramBot": "@atomcheats_bot",
+    "discordServer": "discord.gg/atomcheats",
+    "joinDiscord": "Open",
+    "openTelegram": "Open",
+    "goToTelegram": "Open Telegram",
+    "goToDiscord": "Open Discord",
+    "softwareTitle": "Required Software",
+    "softwareDescription": "Download and install the necessary software for our products to work correctly:",
+    "driversTitle": "Drivers",
+    "drivers": [
+      {
+        "name": "Microsoft Visual C++ 2005-2019",
+        "url": "https://www.techpowerup.com/download/visual-c-redistributable-runtime-package-all-in-one/",
+        "description": "Required for running applications developed with Visual C++"
+      },
+      {
+        "name": "DirectX 12",
+        "url": "https://download.microsoft.com/download/1/7/1/1718CCC4-6315-4D8E-9543-8E28A4E18C4C/dxwebsetup.exe",
+        "description": "Required for graphics and multimedia applications"
+      },
+      {
+        "name": "Microsoft .NET Framework",
+        "url": "https://dotnet.microsoft.com/en-us/download/dotnet-framework",
+        "description": "Required for running .NET applications"
+      },
+      {
+        "name": "NVIDIA Drivers",
+        "url": "https://www.nvidia.com/en-eu/drivers/",
+        "description": "Latest drivers for NVIDIA graphics cards"
+      },
+      {
+        "name": "AMD Drivers",
+        "url": "https://www.amd.com/en/support/download/drivers.html",
+        "description": "Latest drivers for AMD graphics cards"
+      }
+    ],
+    "protectionTitle": "Protection Disable",
+    "protection": [
+      {
+        "name": "Disable Windows Defender",
+        "url": "https://www.sordum.org/9480/defender-control-v2-1/",
+        "description": "Tool to disable Windows Defender (password: sordum)"
+      },
+      {
+        "name": "How to disable Secure Boot: RU / EN",
+        "url": "https://www.youtube.com/watch?v=RjwT85icNHg",
+        "description": "Video tutorial on disabling Secure Boot in Russian and English"
+      },
+      {
+        "name": "How to enable UEFI: RU / EN",
+        "url": "https://learn.microsoft.com/en-us/windows/deployment/mbr-to-gpt?source=recommendations",
+        "description": "Guide on enabling UEFI mode in Russian and English"
+      }
+    ],
+    "programsTitle": "Programs for Support",
+    "programs": [
+      {
+        "name": "Lightshot",
+        "url": "https://app.prntscr.com/en/download.html",
+        "description": "Tool for taking screenshots"
+      },
+      {
+        "name": "RustDesk",
+        "url": "https://github.com/rustdesk/rustdesk/releases/tag/1.4.5",
+        "description": "Remote access software"
+      },
+      {
+        "name": "AnyDesk",
+        "url": "https://anydesk.com/",
+        "description": "Remote access software"
+      }
+    ],
+    "visualCppDescription": "Essential runtime components for many Windows applications and games",
+    "directxDescription": "Latest multimedia API for games and high-performance applications",
+    "netFrameworkDescription": "Required framework for many Windows applications and software",
+    "nvidiaDrivers": "NVIDIA Drivers",
+    "nvidiaDescription": "Latest graphics drivers for NVIDIA video cards",
+    "amdDrivers": "AMD Drivers",
+    "amdDescription": "Latest graphics drivers for AMD video cards",
+    "defenderControl": "Defender Control Disable",
+    "defenderDescription": "Disable Windows Defender (password: sordum)",
+    "secureBootTitle": "How to disable Secure Boot",
+    "secureBootDescription": "Video instruction for disabling Secure Boot in BIOS/UEFI",
+    "uefiTitle": "How to enable UEFI",
+    "uefiDescription": "Official Microsoft guide for enabling UEFI mode",
+    "lightshotDescription": "Lightweight screenshot tool with quick sharing capabilities",
+    "rustdeskDescription": "Open-source remote desktop software for technical support",
+    "anydeskDescription": "Fast and secure remote access software for support sessions"
+  }
+}

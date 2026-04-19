@@ -1,0 +1,55 @@
+{
+  "deposit": {
+    "title": "Balance Top-up",
+    "step1": "Payment",
+    "step2": "Success",
+    "amountLabel": "Top-up Amount",
+    "methodLabel": "Payment Method",
+    "debugUsd": "DEBUG USD",
+    "debugRub": "DEBUG RUB",
+    "cryptoUsd": "Cryptocurrency Payment",
+    "debugUsdDesc": "Test USD top-up",
+    "debugRubDesc": "Test RUB top-up",
+    "cryptoUsdDesc": "Pay with cryptocurrency",
+    "limits": "Limits: {{min}}-{{max}} {{currency}}",
+    "validation": {
+      "required": "Enter amount",
+      "invalidNumber": "Enter valid number",
+      "minAmount": "Minimum amount: {{amount}} {{currency}}",
+      "maxAmount": "Maximum amount: {{amount}} {{currency}}",
+      "decimalPlaces": "No more than 2 decimal places",
+      "positive": "Amount must be greater than 0"
+    },
+    "securityInfo": "Secure payment",
+    "terms": "I agree to the terms of service and privacy policy",
+    "payButton": "Top up",
+    "processing": "Processing...",
+    "amountDescription": "Enter the amount you want to add to your balance",
+    "depositSummary": "Deposit Summary",
+    "selectPaymentMethod": "Select Payment Method",
+    "selectedPaymentMethod": "Selected payment method",
+    "amount": "Amount",
+    "paymentFee": "Payment Fee",
+    "total": "Total",
+    "depositAmount": "Deposit Amount",
+    "paymentMethod": "Payment Method",
+    "success": {
+      "title": "Balance topped up successfully!",
+      "message": "Your balance has been credited with",
+      "messageFull": "Your balance has been credited with {{amount}} {{currency}}",
+      "newDeposit": "Top-up again",
+      "toCatalog": "To catalog"
+    },
+    "errors": {
+      "methodRequired": "Select payment method",
+      "termsRequired": "Agreement required",
+      "paymentFailed": "Failed to update balance. Please try again."
+    },
+    "paymentMethodsDisabled": "All payment methods are currently disabled. Please use your account balance for purchases.",
+    "allMethodsDisabled": "All payment methods are currently disabled",
+    "useBalanceForPurchases": "Please use your account balance for purchases",
+    "paymentMethodDisabled": "This payment method is currently disabled",
+    "disabled": "Disabled",
+    "notAuthenticated": "Please log in to continue"
+  }
+}

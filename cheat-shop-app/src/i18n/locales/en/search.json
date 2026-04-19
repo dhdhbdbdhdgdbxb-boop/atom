@@ -1,0 +1,19 @@
+{
+  "search": {
+    "title": "Search Products and Games",
+    "placeholder": "Search for products and games...",
+    "noResults": "No products or games found for",
+    "tryDifferent": "Try different keywords, check spelling, or search by product category",
+    "startSearching": "Start searching for products and games",
+    "typeToSearch": "Type in the search box above to find products and games",
+    "viewDetails": "Go to product",
+    "viewGame": "Go to game",
+    "unnamedProduct": "Unnamed Product",
+    "unnamedGame": "Unnamed Game",
+    "noDescription": "No description available",
+    "priceNotAvailable": "Price not available",
+    "productsSection": "Products",
+    "gamesSection": "Games",
+    "productsCount": "{{count}} products"
+  }
+}

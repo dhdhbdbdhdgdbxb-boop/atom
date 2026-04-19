@@ -1,0 +1,26 @@
+{
+  "header": {
+    "logo": "AtomCheats",
+    "navigation": {
+      "catalog": "Catalog",
+      "news": "News",
+      "reviews": "Reviews",
+      "faq": "FAQ & Help"
+    },
+    "searchPlaceholder": "Search...",
+    "changeLanguage": "Change language",
+    "userMenu": {
+      "profile": "Profile",
+      "signOut": "Sign Out",
+      "balance": "Balance",
+      "deposit": "Deposit"
+    },
+    "authButtons": {
+      "signIn": "Sign In",
+      "signUp": "Sign Up"
+    },
+    "mobileMenu": {
+      "search": "Search"
+    }
+  }
+}
