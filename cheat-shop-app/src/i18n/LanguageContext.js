@@ -45,11 +45,9 @@ export const LanguageProvider = ({ children, initialLocale = 'en' }) => {
     
     if (pathname.startsWith('/ru')) {
       return 'ru';
-    } else if (pathname.startsWith('/en')) {
-      return 'en';
     } else {
-      // Для корневой страницы используем русский по умолчанию
-      return 'ru';
+      // / и /en — английский
+      return 'en';
     }
   };
 
@@ -80,9 +78,8 @@ export const LanguageProvider = ({ children, initialLocale = 'en' }) => {
         localStorage.getItem('selectedLang');
 
       if (!hasSavedLang) {
-        let urlLocale = 'ru';
+        let urlLocale = 'en';
         if (pathname.startsWith('/ru')) urlLocale = 'ru';
-        else if (pathname.startsWith('/en')) urlLocale = 'en';
 
         if (urlLocale !== language) {
           setLanguage(urlLocale);
@@ -147,19 +144,12 @@ export const LanguageProvider = ({ children, initialLocale = 'en' }) => {
     const handleUrlChange = () => {
       const pathname = window.location.pathname;
       
-      let urlLocale = 'ru'; // По умолчанию русский
-      if (pathname.startsWith('/ru')) {
-        urlLocale = 'ru';
-      } else if (pathname.startsWith('/en')) {
-        urlLocale = 'en';
-      }
+      let urlLocale = 'en';
+      if (pathname.startsWith('/ru')) urlLocale = 'ru';
       
-      // Обновляем язык только если он действительно изменился
       if (urlLocale !== language) {
         setLanguage(urlLocale);
         localStorage.setItem('selectedLang', urlLocale);
-        
-        // Также обновляем куки
         document.cookie = `locale=${urlLocale}; max-age=${365 * 24 * 60 * 60}; path=/; samesite=lax`;
       }
     };
@@ -305,10 +295,11 @@ export const LanguageProvider = ({ children, initialLocale = 'en' }) => {
       // Убираем текущий языковой префикс
       const stripped = pathname.replace(/^\/(ru|en)/, '') || '/';
 
-      if (newLanguage === 'en') {
-        newPath = `/en${stripped === '/' ? '' : stripped}`;
+      if (newLanguage === 'ru') {
+        newPath = `/ru${stripped === '/' ? '' : stripped}`;
       } else {
-        newPath = stripped; // ru — без префикса
+        // en — без префикса (корень) или /en
+        newPath = stripped;
       }
 
       if (newPath !== pathname) {
