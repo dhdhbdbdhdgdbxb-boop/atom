@@ -318,7 +318,6 @@ export const LanguageProvider = ({ children, initialLocale = 'en' }) => {
       }
     }
   };
-  };
 
   // Helper function for interpolation
   const interpolate = (str, params) => {
